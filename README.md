@@ -29,11 +29,14 @@ curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | 
 
 ## Instalaçao e preparaçao
 - Clona o repositorio
+
 git clone [https://github.com/Thalles211/semana_nlp.git](https://github.com/Thalles211/semana_nlp.git)
 cd semana_nlp
 
 - Sincroniza o ambiente
+
 uv sync
 
 - Registra o Kernel do Jupyter
+
 uv run python -m ipykernel install --user --name news-classifier --display-name "Python (News Classifier)"
