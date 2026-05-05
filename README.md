@@ -27,16 +27,16 @@ powershell -c "irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/insta
 ### Linux/MacOS
 curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
 
-## Instalaçao e preparaçao
-- Clona o repositorio
+### Instalaçao e preparaçao
+## Clona o repositorio
 
 git clone [https://github.com/Thalles211/semana_nlp.git](https://github.com/Thalles211/semana_nlp.git)
 cd semana_nlp
 
-- Sincroniza o ambiente
+## Sincroniza o ambiente
 
 uv sync
 
-- Registra o Kernel do Jupyter
+## Registra o Kernel do Jupyter
 
 uv run python -m ipykernel install --user --name news-classifier --display-name "Python (News Classifier)"
