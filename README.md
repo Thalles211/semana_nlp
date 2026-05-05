@@ -31,6 +31,7 @@ curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | 
 ## Clona o repositorio
 
 git clone [https://github.com/Thalles211/semana_nlp.git](https://github.com/Thalles211/semana_nlp.git)
+
 cd semana_nlp
 
 ## Sincroniza o ambiente
